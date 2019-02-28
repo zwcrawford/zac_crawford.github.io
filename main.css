@@ -21,6 +21,12 @@ img {
   /* Set image behind all content */
   z-index: -1;
 }
+@media screen and (max-width: 1024px) { /* Specific to this particular image */
+  img.bg {
+    left: 50%;
+    margin-left: -512px;   /* 50% */
+  }
+}
 /* Set nav link styles */
 a:link {
   list-style-type: none;
