@@ -1,14 +1,37 @@
 html {
-  background-image: url("images/building.png");
-  background:#6C7989;
-  background: #6C7989 linear_gradient(#6C7989, #434B55) fixed;
+  background-image: url("images/buildingblue.png");
+  background: #6C7989 no-repeat center center fixed;
+  background: #6C7989;
   background-size: cover;
 }
 img {
+  /* Set rules to fill background */
+  min-height: 100%;
+  min-width: 1024px;
+
+  /* Set up proportionate scaling */
+  width: 100%;
+  height: auto;
+
+  /* Set up positioning */
   position:fixed;
-  top:0px;
-  left:0px;
-  width:100%;
-  height:100%;
-  z-index:-1;
+  top: 0;
+  left: 0;
+
+  /* Set image behind all content */
+  z-index: -1;
+}
+/* Set nav link styles */
+a:link {
+  list-style-type: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  color: #11039E;
+}
+a:visited {
+  color: #11039E;
+}
+a:hover {
+  color: #FF00FF;
 }
