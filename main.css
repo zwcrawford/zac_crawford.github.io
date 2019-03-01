@@ -3,6 +3,7 @@ html {
   background: #6C7989 no-repeat center center fixed;
   background: #6C7989;
   background-size: cover;
+  font-family: 'Cormorant Garamond', serif;
 }
 img {
   /* Set rules to fill background */
@@ -21,7 +22,8 @@ img {
   /* Set image behind all content */
   z-index: -1;
 }
-@media screen and (max-width: 1024px) { /* Specific to this particular image */
+@media screen and (max-width: 1024px) {
+  /* Specific to this particular image */
   img.bg {
     left: 50%;
     margin-left: -512px;   /* 50% */
