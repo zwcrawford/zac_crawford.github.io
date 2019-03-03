@@ -187,44 +187,11 @@ html {
   transition: .4s;
 }
 
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 26px;
-  width: 26px;
-  left: 4px;
-  bottom: 0px;
-  background-color: white;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
 
-input:checked + .slider {
-  background-color: #2196F3;
-}
-
-input:focus + .slider {
-  box-shadow: 0 0 1px #2196F3;
-}
-
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
-
-/* Rounded sliders */
-.slider.round {
-
-  border-radius: 34px;
-}
-
-.slider.round:before {
-  border-radius: 50%;
-}
 #header{
 		top:0px;
 }
+/* Want to add a static footer too. That would be cool I think. */
 #footer{
 		bottom:0px;
 }
@@ -248,61 +215,52 @@ input:checked + .slider:before {
 }
 
 .item1{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item2{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item3{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item4{
-  background-color: rgba(255, 255, 255, 0.8);
+
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item5{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item6{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item7{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item8{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item9{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
 .item10{
-  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   font-size: 30px;
   text-align: center;
