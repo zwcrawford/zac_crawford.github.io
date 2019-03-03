@@ -1,24 +1,82 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Zac Crawford</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
   <link rel="stylesheet" href="main.css">
-  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond" rel="stylesheet">
+  <link href="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.css" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div class="image">
-    <img src="images/buildingblue.png" alt="building"/>
-  <header>
-    <nav class="nav">
-      <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="projects.html">Projects</a> | <a href="resume.html">Resume</a>
-    </nav>
-    <h1>Zac Crawford</h1>
-    <p>My true passion is to create meaningful things that makes a difference in people's lives and to solve complex problems with software.</p>
-    <p>If you have a work request or simply want to chat, feel free to write me anytime at: zwcrawford@gmail.com</p>
-  </header>
-</div>
+  <div class="container-fluid" id="infoMenu">
+    <div class="row ">
+      <div class="col-3"></div>
+      <div id="bottom" class="input-group col-6 ">
+      </div>
+    </div>
+  </div>
+<ul id="menu">
+     <div class="row">
+     <div class="col-6">
+    </div>
+       <div class="col-6">
+    <div class="btn-group float-right" id="nav">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"  >
+       My Portfolio Site
+    </button>
+    <div class="dropdown-menu">
+      <a class="dropdown-item" data-menuanchor="firstPage" href="#firstPage">Welcome</a>
+      <a class="dropdown-item" href="#secondPage" data-menuanchor="secondPage">Technology</a>
+      <a class="dropdown-item" href="#3rdPage" data-menuanchor="thirdPage">Projects</a>
+      <a class="dropdown-item" href="#4thPage" data-menuanchor="fourthPage">Other Media</a>
+    </div>
+      </div>
+    </div>
+</ul>
+  <div id="fullpage">
+    <div class="section s1">
+      <h1>Zac Crawford</h1>
+      <h3>Software Developer</h3>
+      <p>
+        Hi, I'm Zac. Currently I attend a full-stack web developer program at the Nashville Software School in Nashville, TN. I am passionate about building and creating, finding solutions to challenges, and overall, I want to continue pursuing technologies that will make me a better developer and improving the lives of those who will use it.
+
+      </p>
+    </div>
+    <div class="section s1">
+      <p>
+        Technology I use:
+      </p>
+      <div class="grid-container">
+        <div class="item1"><img src="images/visualstudiocode.svg"></div>
+        <div class="item2">2</div>
+        <div class="item3">3</div>  
+        <div class="item4">4</div>
+        <div class="item5">5</div>
+        <div class="item6">6</div>
+        <div class="item7">7</div>
+        <div class="item8">8</div> 
+        <div class="item9">9</div>
+        <div class="item10">10</div> 
+      </div>
+    </div>
+      <div class="section s1">Projects</div>
+      <div class="section s1">Other Media
+        <div class="slide" data-anchor="slide1">Work 1</div>
+        <div class="slide" data-anchor="slide2">Work 2</div>
+        <i class="fab fa-linkedin"></i>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="https://rawgit.com/alvarotrigo/fullPage.js/dev/src/fullpage.js"></script>
+  <script src="fullpage.js"></script>
 </body>
+
 </html>
