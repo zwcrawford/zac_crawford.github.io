@@ -129,7 +129,7 @@ html {
 }
 .block{
   left: -1000px;
-  position:absolute;
+  position: absolute;
   /* other decorate style */
   animation: barrage 5s linear 2s 3 ;
 }
@@ -226,6 +226,27 @@ html {
   line-height: 1rem;
   margin: 0;
 }
-.traveler {
-  width: 50%;
+.traveler1 {
+  width: 55%;
+}
+.traveler2 {
+  height: 90%;
+}
+.lift1 {
+  width: 75%;
+}
+.lift2 {
+  width: 75%;
+}
+.lift3 {
+  height: 90%;
+  width: 55%;
+}
+.lift4 {
+  width: 55%;
+  height: 90%;
+}
+.lift5 {
+  55%;
+  height: 90%;
 }
