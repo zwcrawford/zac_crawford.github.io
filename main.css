@@ -238,14 +238,14 @@ html {
   padding: 60px;
 }
 .intro-links {
-  border: 1px solid black;
-  width: 100%;
+  width: 20%;
   justify-content:center;
   min-width: 100px;
   min-height: 100px;
+  align-self: center;
 }
 .container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 10%);
-  margin-left: 40%;
+  grid-template-rows: auto auto;
 }
