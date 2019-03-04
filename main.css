@@ -5,32 +5,32 @@
 	background:#fff;
 	background: rgba(255,255,255, 0.5);
 	-webkit-border-radius: 10px;
-            border-radius: 10px;
+  border-radius: 10px;
 }
-#menu li.active{
+#menu li.active {
 	background:#666;
 	background: rgba(0,0,0, 0.5);
 	color: #fff;
 }
-#menu li a{
+#menu li a {
 	text-decoration:none;
 	color: #000;
 }
-#menu li.active a:hover{
+#menu li.active a:hover {
 	color: #000;
 }
-#menu li:hover{
+#menu li:hover {
 	background: rgba(255,255,255, 0.8);
 }
 #menu li a,
-#menu li.active a{
+#menu li.active a {
 	padding: 9px 18px;
 	display:block;
 }
-#menu li.active a{
+#menu li.active a {
 	color: #fff;
 }
-#menu{
+#menu {
 	position:fixed;
 	top:0;
 	left:0;
@@ -40,8 +40,7 @@
 	padding: 0;
 	margin:0;
 }
-
-#infoMenu{
+#infoMenu {
 	height: 50px;
 	color: #f2f2f2;
 	position:fixed;
@@ -59,46 +58,36 @@
 .beibeijia {
   width:100px;
 }
-.card-body h6{
+.card-body h6 {
   font-size:13px;
 }
-
 .s1 {
   text-align:center;
   font-size: 1.2em;
 }
-#test{
-  vertical-align: baseline;
-  background-image: url("images/light-bl.svg"), url("images/light-br.svg"), url("images/overlay.png"), url("https://lh3.googleusercontent.com/I20NlAbQ9gqfQktEXbQ5wL6T6g5rI7KQK6q2rbn4FYO8RGBsFdQAQSzZI6qRLllke_qiT0Uklnt71BJMb6_Q6ECjPnsV6GPvfNAcIvNAnV6P4QPSvdcLoUlQHrbFrZ6zijxmvymwCA=w2400");
-  background-size: 25em, 25em, auto, cover;
-  	background-repeat: no-repeat, no-repeat, repeat, no-repeat;
-  		background-position: bottom left, bottom right, top left, top center;
-}
-
-@media (max-width: 375px){
-  .container-a{
+@media (max-width: 375px) {
+  .container-a {
     display:none;
   }
-  #bottom{
+  #bottom {
     display:none;
   }
 }
 #card-image {
     padding: 0 0 10px 0;
   }
-
-@media (max-width: 767px){
+@media (max-width: 767px) {
   #card-image {
     width: 80%;
   }
   .container-box {
     position: relative;
   }
-  .card>img{
+  .card>img {
     width:120%;
     min-width: 60px;
   }
-  .beibeijia{
+  .beibeijia {
     width: 100%;
     height: 100%;
   }
@@ -109,18 +98,18 @@ html {
 #one {
   width:100%;
 }
-  #test-box {
-    position: relative;
-  }
-  .container-box {
-    position: relative;
-  }
+#test-box {
+  position: relative;
+}
+.container-box {
+  position: relative;
+}
 .container-a {
-    height: 80%;
-    width:100%;
-     z-index: 5;
-   position:absolute;
-    top:0;
+  height: 80%;
+  width:100%;
+  z-index: 5;
+  position:absolute;
+  top:0;
 }
 #mainScreen {
   width: 100%;
@@ -138,7 +127,6 @@ html {
      transform:translateX(-100%);
    }
 }
-
 .block{
   left: -1000px;
   position:absolute;
@@ -150,117 +138,85 @@ html {
     width:100px;
   }
 }
-#bottom{
+#bottom {
   z-index: 10;
 }
 .card-body>a {
   width: 100%;
 }
-.switch {
-  top: 6px;
-  left: 5px;
-  position: relative;
-  display: inline-block;
-  width: 60px;
-  height: 26px;
-}
-
-.switch input {
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
 #nav {
   right: 10px;
   top: 10px;
 }
-.slider {
-
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: #ccc;
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-
-
-#header{
+#header {
 		top:0px;
 }
 /* Want to add a static footer too. That would be cool I think. */
-#footer{
+#footer {
 		bottom:0px;
 }
-
-#header, #footer{
-		position:fixed;
-		height: 50px;
-		display:block;
-		width: 100%;
-		background: #333;
-		z-index:9;
-		text-align:center;
-		color: #f2f2f2;
-		padding: 0 0 0 0;
+#header, #footer {
+  position:fixed;
+  height: 50px;
+  display:block;
+  width: 100%;
+  background: #333;
+  z-index:9;
+  text-align:center;
+  color: #f2f2f2;
+  padding: 0 0 0 0;
 }
 .grid-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, 10%);
-  background-color: #626163;
   padding: 10px;
 }
-
-.item1{
+.item1 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item2{
+.item2 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item3{
+.item3 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item4{
-
+.item4 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item5{
+.item5 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item6{
+.item6 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item7{
+.item7 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item8{
+.item8 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item9{
+.item9 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
 }
-.item10{
+.item10 {
   padding: 20px;
   font-size: 30px;
   text-align: center;
@@ -269,4 +225,7 @@ html {
   font-size: 25%;
   line-height: 1rem;
   margin: 0;
+}
+.traveler {
+  width: 50%;
 }
